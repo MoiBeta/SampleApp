@@ -15,4 +15,5 @@
     <string name="posted_by_user">Posted by User #</string>
     <string name="postid">PostId</string>
     <string name="agregar">Agregar</string>
+    <string name="completed">Completed?</string>
 </resources>

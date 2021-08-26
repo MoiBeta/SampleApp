@@ -11,12 +11,11 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="8dp"
         android:ems="10"
         android:gravity="start"
         android:hint="@string/title"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/addButton"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/checkBoxCompleted"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -32,4 +31,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCompleted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/completed"
+        app:layout_constraintBottom_toTopOf="@+id/addButton"
+        app:layout_constraintStart_toStartOf="@+id/addButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>

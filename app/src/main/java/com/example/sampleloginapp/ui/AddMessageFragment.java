@@ -39,7 +39,8 @@ public class AddMessageFragment extends Fragment {
                 } else{
                     int idFijo = 11;
                     String post = binding.editTextPost.getText().toString();
-                    boolean completed = false;
+                    boolean completed;
+                    completed = binding.checkBoxCompleted.isChecked();
                     Post newPost = new Post(idFijo, post, completed);
                     postViewModel.addPost(newPost);
                     Toast.makeText(getActivity(), "Mensaje agregado!", Toast.LENGTH_SHORT).show();
