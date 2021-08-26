@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -30,12 +31,17 @@ public class AddMessageFragment extends Fragment {
         binding.addButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int idFijo = 11;
-                String post = binding.editTextPost.getText().toString();
-                boolean completed = false;
-                Post newPost = new Post(idFijo, post, completed);
-                postViewModel.addPost(newPost);
-                NavHostFragment.findNavController(AddMessageFragment.this).navigate(R.id.action_navigation_add_message_to_navigation_home);
+                if(binding.editTextPost.getText().toString().isEmpty()){
+                    binding.editTextPost.setError("Por favor ingresa el texto que deseas publicar.");
+                } else{
+                    int idFijo = 11;
+                    String post = binding.editTextPost.getText().toString();
+                    boolean completed = false;
+                    Post newPost = new Post(idFijo, post, completed);
+                    postViewModel.addPost(newPost);
+                    Toast.makeText(getActivity(), "Mensaje agregado!", Toast.LENGTH_SHORT).show();
+                    NavHostFragment.findNavController(AddMessageFragment.this).navigate(R.id.action_navigation_add_message_to_navigation_home);
+                }
             }
         });
     }
