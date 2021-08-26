@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SampleLoginApp</string>
+    <string name="login">Login</string>
+    <string name="username">Nombre de Usuario</string>
+    <string name="hin_password">Contraseña</string>
+    <string name="button_text">Iniciar sesión</string>
+    <string name="text_create_account">No tienes una cuenta. Regístrate dando click aquí.</string>
+
+    <string name="toolbar_title_home">Inicio</string>
+    <string name="userid">UserId</string>
+    <string name="title">Por favor escribe tu nuevo post aquí.</string>
+    <string name="home">Home</string>
+    <string name="add_message">Add Message</string>
+    <string name="post">Post #</string>
+    <string name="posted_by_user">Posted by User #</string>
+    <string name="postid">PostId</string>
+    <string name="agregar">Agregar</string>
+</resources>
