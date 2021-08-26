@@ -1,4 +1,4 @@
-package com.example.sampleloginapp;
+package com.example.sampleloginapp.ui;
 
 import android.content.Intent;
 import android.os.Bundle;

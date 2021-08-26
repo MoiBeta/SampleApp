@@ -1,4 +1,4 @@
-package com.example.sampleloginapp;
+package com.example.sampleloginapp.retrofit;
 
 import java.util.List;
 

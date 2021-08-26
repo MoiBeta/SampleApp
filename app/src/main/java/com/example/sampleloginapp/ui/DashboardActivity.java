@@ -1,4 +1,4 @@
-package com.example.sampleloginapp;
+package com.example.sampleloginapp.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,6 +14,7 @@ import androidx.navigation.fragment.NavHostFragment;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import com.example.sampleloginapp.R;
 import com.example.sampleloginapp.databinding.ActivityDashboardBinding;
 
 public class DashboardActivity extends AppCompatActivity {

@@ -1,4 +1,6 @@
-package com.example.sampleloginapp;
+package com.example.sampleloginapp.common;
+
+import com.example.sampleloginapp.retrofit.Post;
 
 import java.util.Collections;
 import java.util.Comparator;

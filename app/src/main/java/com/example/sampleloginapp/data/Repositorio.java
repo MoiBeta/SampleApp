@@ -1,8 +1,12 @@
-package com.example.sampleloginapp;
+package com.example.sampleloginapp.data;
 
 import android.widget.Toast;
 
 import androidx.lifecycle.MutableLiveData;
+
+import com.example.sampleloginapp.common.MyApp;
+import com.example.sampleloginapp.retrofit.JsonPlaceHolderService;
+import com.example.sampleloginapp.retrofit.Post;
 
 import java.util.List;
 

@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.sampleloginapp.HomeFragment"
+        android:name="com.example.sampleloginapp.ui.HomeFragment"
         android:label="Home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/navigation_add_message"
-        android:name="com.example.sampleloginapp.AddMessageFragment"
+        android:name="com.example.sampleloginapp.ui.AddMessageFragment"
         android:label="New Message"
         tools:layout="@layout/fragment_add_message" >
         <action

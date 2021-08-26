@@ -1,4 +1,4 @@
-package com.example.sampleloginapp;
+package com.example.sampleloginapp.ui;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,7 +9,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.sampleloginapp.R;
+import com.example.sampleloginapp.common.Utils;
 import com.example.sampleloginapp.databinding.ItemBinding;
+import com.example.sampleloginapp.retrofit.Post;
 
 import java.text.MessageFormat;
 import java.util.List;

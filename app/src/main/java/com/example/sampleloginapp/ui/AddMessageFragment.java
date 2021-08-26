@@ -1,4 +1,4 @@
-package com.example.sampleloginapp;
+package com.example.sampleloginapp.ui;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,7 +12,10 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.fragment.NavHostFragment;
 
+import com.example.sampleloginapp.R;
+import com.example.sampleloginapp.data.PostViewModel;
 import com.example.sampleloginapp.databinding.FragmentAddMessageBinding;
+import com.example.sampleloginapp.retrofit.Post;
 
 public class AddMessageFragment extends Fragment {
     private FragmentAddMessageBinding binding;

@@ -1,4 +1,4 @@
-package com.example.sampleloginapp;
+package com.example.sampleloginapp.ui;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,7 +12,10 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
+import com.example.sampleloginapp.common.Utils;
+import com.example.sampleloginapp.data.PostViewModel;
 import com.example.sampleloginapp.databinding.FragmentHomeBinding;
+import com.example.sampleloginapp.retrofit.Post;
 
 import java.util.ArrayList;
 import java.util.List;
